@@ -271,7 +271,7 @@ body {
 }
 
 /* Active button style */
-.tag-button.active {
+button.active {
     font-weight: inherit;
     color: #333;
 }
@@ -293,7 +293,7 @@ body {
 }
 
 
-  main {
+  main, main2 {
     padding: 20px;
     margin-top: 70px; /* Space above the buttons */
 
@@ -359,21 +359,22 @@ body {
     height: auto;
     border-radius: 8px 8px 0 0;
   }
-  .book-detail-container {
+.book-detail-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
-    width: 80%; /* Adjusts the width of the container */
-    max-width: 1200px; /* Optional: Limits the max width */
+    width: 80%;
+    max-width: 1200px;
     margin-left: auto;
-  }
-  
-  .book-image-container img {
+    position: relative; /* Needed for absolute positioning of the star button */
+}
+
+.book-image-container img {
     width: 300px;
     height: auto;
     border-radius: 8px;
-  }
+}
   .book-image-container p{
         font-size: 20px;
 
@@ -395,15 +396,7 @@ body {
     margin-bottom: 20px;
     margin-right: 200px;
   }
-  .bookstars { 
-    padding: 10px 20px;
-  background-color: #f4b400;
-  border: none;
-  color: white;
-  cursor: pointer;
-  border-radius: 4px;
-
-  }
+ 
 
 .stars {
     font-size: 16px;
