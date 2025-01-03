@@ -11,58 +11,51 @@
 </head>
 <body>
       <header>
-
-        <div class="burger-menu">
-            <button class="burger-icon" aria=label="Me39776;nu"7></button>
-        </div>
-
-      <div class="burger-menu">
-        <button class="burger-icon" aria-label="Menu">&#9776;</button>
-        <nav class="burger-menu-content">
-          <a href="../html/pp.aspx">Privacy Policy Update</a>
-          <a href="../html/terms.aspx">Terms and Conditions</a>
-          <a href="../html/cancel.aspx">Cancellation and Refund Policy</a>
-          <a href="../html/shipping.aspx">Shipping & Delivery Policy</a>
-          <a href="../html/contactus.aspx">Contact Us</a>
-        </nav>
-
-
+     <div class="burger-menu">
+         <button class="burger-icon" aria-label="Menu">&#9776;</button>
+         <nav class="burger-menu-content">
+           <a href="../html/pp.aspx">Privacy Policy Update</a>
+           <a href="../html/terms.aspx">Terms and Conditions</a>
+           <a href="../html/cancel.aspx">Cancellation and Refund Policy</a>
+           <a href="../html/shipping.aspx">Shipping & Delivery Policy</a>
+           <a href="../html/contactus.aspx">Contact Us</a>
+         </nav>
     </div>
-       <div class="logo">
-     <a href="../html/home.aspx">
-         <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
-         <p class="logo-text">RENT A READ</p>
-     </a>
- </div>
 
-        <div class="auth-search-container">
-            <div class="auth-links">
-                <a href="../html/login.aspx" class="login">LOGIN</a> <!-- Divider between links -->
-                <a href="../html/register.html" class="register">REGISTER</a>
-            </div>
-            </div>
-    
-           <div class="search-bar">
-                 <input type="text" placeholder="Search">
-                 <div class="genre-dropdown">
-                     <button class="genre-button">Genres</button>
-                     <div class="genre-options">
-                         <a href="../html/genre.aspx?genre=action">Action</a>
-                         <a href="../html/genre.aspx?genre=adventure">Adventure</a>
-                         <a href="../html/genre.aspx?genre=comedy">Comedy</a>
-                         <a href="../html/genre.aspx?genre=drama">Drama</a>
-                         <a href="../html/genre.aspx?genre=educational">Educational</a>
-                         <a href="../html/genre.aspx?genre=fantasy">Fantasy</a>
-                         <a href="../html/genre.aspx?genre=history">History</a>
-                         <a href="../html/genre.aspx?genre=horror">Horror</a>
-                         <a href="../html/genre.aspx?genre=romance">Romance</a>
-                         <a href="../html/genre.aspx?genre=romcom">Romcom</a>
-                         <a href="../html/genre.aspx?genre=selfhelp">Selfhelp</a>
-                     </div>
+     <div class="logo">
+      <a href="../html/home.aspx">
+          <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
+          <p class="logo-text">RENT A READ</p>
+      </a>
+  </div>
+     <div class="auth-search-container">
+         <div class="auth-links">
+             <a href="../html/login.aspx" class="login">LOGIN</a> <!-- Divider between links -->
+             <a href="../html/register.aspx" class="register">REGISTER</a>
+         </div>
+ 
+         <div class="search-bar">
+             <input type="text" placeholder="Search">
+             <div class="genre-dropdown">
+                 <button class="genre-button">Genres</button>
+                 <div class="genre-options">
+                     <a href="../html/genre.aspx?genre=action">Action</a>
+                     <a href="../html/genre.aspx?genre=adventure">Adventure</a>
+                     <a href="../html/genre.aspx?genre=comedy">Comedy</a>
+                     <a href="../html/genre.aspx?genre=drama">Drama</a>
+                     <a href="../html/genre.aspx?genre=educational">Educational</a>
+                     <a href="../html/genre.aspx?genre=fantasy">Fantasy</a>
+                     <a href="../html/genre.aspx?genre=history">History</a>
+                     <a href="../html/genre.aspx?genre=horror">Horror</a>
+                     <a href="../html/genre.aspx?genre=romance">Romance</a>
+                     <a href="../html/genre.aspx?genre=romcom">Romcom</a>
+                     <a href="../html/genre.aspx?genre=selfhelp">Selfhelp</a>
                  </div>
              </div>
-              
-      </header> 
+         </div>
+     </div>
+ </header>
+      
 
       
     <main>
@@ -105,7 +98,7 @@
            <div class="book-card genre-horror">
              <img src="../images/lion.jpg" alt="Horror Book">
              <div class="book-description">
-               <p>A Lion Among Men:Volume Three  in the Wicked Years</p>
+               <p>A Lion Among Men</p>
                <a href="../html/b_book3.aspx" class="stars">Rent</a>
              </div>
            </div>
@@ -113,7 +106,7 @@
            <div class="book-card genre-romance">
              <img src="../images/out.jpg" alt="Romance Book">
              <div class="book-description">
-               <p>Out of Oz: The Final <br> Volume in the Wicked Years </p>
+               <p>Out of Oz </p>
                  <a href="../html/book4.html" class="stars">Rent</a>
              </div>
            </div>  

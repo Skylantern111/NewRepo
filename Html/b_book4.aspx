@@ -25,9 +25,11 @@
                   </div>
 
         <div class="logo">
+      <a href="../html/home.aspx">
           <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
           <p class="logo-text">RENT A READ</p>
-        </div>
+      </a>
+  </div>
         <div class="auth-search-container">
             <div class="auth-links">
                 <a href="../html/login.html" class="login">LOGIN</a>
@@ -93,10 +95,10 @@
       
         <section class="books-container">
           <div class="book-card genre-fantasy">
-            <img src="../images/wicked.avif" alt="wicked">
+            <img src="../images/wicked.png" alt="wicked">
             <div class="book-description">
-              <p>Wicked: The Life and  Times <br> of the Wicked Witch of the West</p>
-              <a href="../html-book/book.html" class="stars">Rent</a>
+              <p>Wicked: The Life and  Times of the Wicked Witch</p>
+              <a href="../html-book/b_book.aspx" class="stars">Rent</a>
             </div>
           </div>
     
@@ -111,7 +113,7 @@
             <div class="book-card genre-horror">
               <img src="../images/lion.jpg" alt="Horror Book">
               <div class="book-description">
-                <p>A Lion Among Men: <br> Volume Three  in the Wicked Years</p>
+                <p>A Lion Among Men</p>
                 <a href="../html-book/book3.html" class="stars">Rent</a>
               </div>
             </div>

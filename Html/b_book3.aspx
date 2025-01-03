@@ -24,14 +24,16 @@
        </div>
 
 
-        <div class="logo">
-          <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
-          <p class="logo-text">RENT A READ</p>
-        </div>
+            <div class="logo">
+    <a href="../html/home.aspx">
+        <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
+        <p class="logo-text">RENT A READ</p>
+    </a>
+</div>
         <div class="auth-search-container">
             <div class="auth-links">
-                <a href="../html/login.html" class="login">LOGIN</a>
-                <a href="../html/register.html" class="register">REGISTER</a>
+                <a href="../html/login.aspx" class="login">LOGIN</a>
+                <a href="../html/register.aspx" class="register">REGISTER</a>
             </div>
       <div class="search-bar">
       <input type="text" placeholder="Search">
@@ -99,7 +101,7 @@
             <div class="book-card genre-fantasy">
               <img src="../images/son.jpg" alt="Son">
               <div class="book-info"> 
-                  <p>Son of a Witch: A Novel Gregory Maguire</p>              
+                  <p>Son of a Witch</p>              
                   <a href="../html/b_book2.aspx" class="stars">Rent</a>
                   </div>
               </div>
@@ -107,7 +109,7 @@
             <div class="book-card genre-romance">
               <img src="../images/out.jpg" alt="Romance Book">
               <div class="book-description">
-                <p>Out of Oz: The Final <br> Volume in the Wicked Years </p>
+                <p>Out of Oz: The Final Volume  </p>
                   <a href="../html/b_book4.aspx" class="stars">Rent</a>
               </div>
             </div>

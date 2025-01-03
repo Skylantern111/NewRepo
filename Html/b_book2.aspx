@@ -25,13 +25,15 @@
        </div>
 
         <div class="logo">
+      <a href="../html/home.aspx">
           <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
           <p class="logo-text">RENT A READ</p>
-        </div>
+      </a>
+  </div>
         <div class="auth-search-container">
             <div class="auth-links">
-                <a href="../html/login.html" class="login">LOGIN</a> <!-- Divider between links -->
-                <a href="../html/register.html" class="register">REGISTER</a>
+                <a href="../html/login.aspx" class="login">LOGIN</a> <!-- Divider between links -->
+                <a href="../html/register.aspx" class="register">REGISTER</a>
             </div>
     
             <div class="search-bar">
@@ -88,7 +90,7 @@
             <div class="book-card genre-fantasy">
               <img src="../images/wicked.png" alt="wicked">
               <div class="book-description">
-                <p>Wicked: The Life and  Times <br> of the Wicked Witch of the West</p>
+                <p>Wicked: The Life and  Times of the Wicked Witch </p>
                 <a href="../html/b_book.aspx" class="stars">Rent</a>
               </div>
             </div>
@@ -96,7 +98,7 @@
             <div class="book-card genre-horror">
               <img src="../images/lion.jpg" alt="Horror Book">
               <div class="book-description">
-                <p>A Lion Among Men: Volume Three  in the Wicked Years</p>
+                <p>A Lion Among Men: </p>
                 <a href="../html/b_book3.aspx" class="stars">Rent</a>
               </div>
             </div>
@@ -104,7 +106,7 @@
             <div class="book-card genre-romance">
               <img src="../images/out.jpg" alt="Romance Book">
               <div class="book-description">
-                <p>Out of Oz: The Final Volume in the Wicked Years </p>
+                <p>Out of Oz </p>
                   <a href="../html/b_book4.aspx" class="stars">Rent</a>
               </div>
             </div>

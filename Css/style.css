@@ -80,6 +80,7 @@ body {
     justify-content: flex-start;
     height: 151px;
     width: 305px;
+    text-decoration: none;
 }
 
 .logo img {
@@ -89,7 +90,7 @@ body {
     margin-left: 56px;
 }
 
-.logo-text {
+.logo p {
     font-size: 24px; /* Adjust the font size as needed */
     font-weight: bold;
     color: #333;
@@ -407,18 +408,18 @@ body {
 .stars {
     font-size: 16px;
     color: #fff;
-    background-color: #f39c12; /* Gold color for the Rent button */
+    background-color: #8D77AB;
     border: none;
-    border-radius: 5px; /* Optional: rounded corners for the button */
+    border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
     font-weight: bold;
     text-decoration: none;
 }
-  
-  .stars:hover {
-    background-color: #e67e22; /* Change to a darker shade on hover */
-  }
+
+    .stars:hover {
+        background-color: #625377;
+    }
 
   /* Optional scrollbar styling */
   .books-container::-webkit-scrollbar {
