@@ -32,8 +32,8 @@
     <!-- Authentication Links and Search Bar -->
     <div class="auth-search-container">
       <div class="auth-links">
-        <a href="../html/login.html" class="login">LOGIN</a>
-        <a href="../html/register.html" class="register">REGISTER</a>
+        <a href="../html/login.aspx" class="login">LOGIN</a>
+        <a href="../html/register.aspx" class="register">REGISTER</a>
       </div>
       
        <div class="search-bar">

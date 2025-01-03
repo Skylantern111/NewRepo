@@ -83,12 +83,12 @@
 
           <p class="register-block">
             Don't have an account yet?
-            <a href="../html/register.html">Register</a>
+            <a href="../html/register.aspx">Register</a>
           </p>
 
           <p class="register-block">
             Are you an Admin?
-            <a href="../html/adminlogin.html">Login as Admin</a>
+            <a href="../html/adminlogin.aspx">Login as Admin</a>
           </p>
 
           <hr class="divider" />
