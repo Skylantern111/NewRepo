@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rent-A-Read</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -26,12 +28,12 @@
 
 
     </div>
-        <div class="logo">
-      <a href="../html/home.aspx">
-          <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
-          <p class="logo-text">RENT A READ</p>
-      </a>
-</div>
+       <div class="logo">
+     <a href="../html/home.aspx">
+         <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
+         <p class="logo-text">RENT A READ</p>
+     </a>
+ </div>
 
         <div class="auth-search-container">
             <div class="auth-links">
@@ -80,6 +82,8 @@
           </p>
           <p class="book-description-text">Wicked by Gregory Maguire reimagines The Wonderful Wizard of Oz from the perspective of Elphaba, the misunderstood and green-skinned woman who becomes the Wicked Witch of the West. The novel explores her complex relationships, including with Glinda the Good Witch, and delves into themes of power, prejudice, and moral ambiguity. Through Elphaba’s journey, Wicked challenges the traditional notions of good and evil, offering a fresh and thought-provoking take on the classic story.</p>
           <a href="../html/login.aspx" class="stars">Rent</a>
+          <a href="../html/login.aspx" class="stars">Check for Availability</a>
+
 
         </div>
       </div>
@@ -101,8 +105,8 @@
            <div class="book-card genre-horror">
              <img src="../images/lion.jpg" alt="Horror Book">
              <div class="book-description">
-               <p>A Lion Among Men: <br> Volume Three  in the Wicked Years</p>
-               <a href="../html/book3.aspx" class="stars">Rent</a>
+               <p>A Lion Among Men:Volume Three  in the Wicked Years</p>
+               <a href="../html/b_book3.aspx" class="stars">Rent</a>
              </div>
            </div>
      

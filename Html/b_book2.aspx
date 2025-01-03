@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rent-A-Read</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -69,7 +71,8 @@
 
           </p>
           <p class="book-description-text">The Wicked Years continue in Gregory Maguire’s Son of a Witch—the heroic saga of the hapless yet determined young man who may or may not be the offspring of the fabled Wicked Witch of the West. A New York Times bestseller like its predecessor, the remarkable Wicked, Son of a Witch follows the boy Liir on his dark odyssey across an ingeniously re-imagined and nearly unrecognizable Land of Oz—a journey that will take him deep into the bowels of the Emerald City, lately abandoned by the Wizard, and into the jaws of dragons. At once a grim fairy tale and an uplifting adventure, Son of a Witch is a true wonder.</p>
-          <a href="../html/login.aspx" class="stars">Rent</a>
+            <a href="../html/login.aspx" class="stars">Rent</a>
+             <a href="../html/login.aspx" class="stars">Check for Availability</a>
         </div>
       </div>
     </main>

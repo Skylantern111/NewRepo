@@ -1,3 +1,9 @@
+* {
+    font-family: 'Martel', sans-serif;
+    font-weight: 400;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,6 +18,10 @@ body {
     justify-content: space-between;
     padding: 10px 10px;
   }
+
+
+
+
   /* Burger Menu Container */
 .burger-menu {
   position: relative;
@@ -473,7 +483,7 @@ body {
   
   /* Sidebar styling */
   .sidebar-navigation {
-    width: 250px; /* Set the width of the sidebar */
+    width: 350px; /* Set the width of the sidebar */
     background-color: #f4f4f4;
     padding: 10px;
     border-radius: 8px;

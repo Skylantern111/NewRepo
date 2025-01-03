@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rent-A-Read | Home</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -25,9 +27,11 @@
 
     <!-- Logo Section -->
     <div class="logo">
-      <a href="../html/home.aspx">&nbsp;<img src="../images/newlogo.jpg" alt="Rent-A-Read Logo"><p class="logo-text">RENT-A-READ</p>
-      </a>
-    </div>
+     <a href="../html/home.aspx">
+         <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
+         <p class="logo-text">RENT A READ</p>
+     </a>
+ </div>
 
     <!-- Authentication Links and Search Bar -->
     <div class="auth-search-container">
@@ -136,23 +140,23 @@
         <img src="../images/son.jpg" alt="Son of a Witch: A Novel">
         <div class="book-description">
           <p>Son of a Witch: A Novel</p>
-          <button class="stars">Rent</button>
+      <a href="../html/b_book2.aspx" class="stars"> Rent</a>
         </div>
       </div>
 
       <div class="book-card genre-horror">
         <img src="../images/lion.jpg" alt="Lion">
         <div class="book-description">
-          <p>A Lion Among Men: Volume Three in the Wicked Years</p>
-          <button class="stars">Rent</button>
+          <p>A Lion Among Men</p>
+      <a href="../html/b_book3.aspx" class="stars"> Rent</a>
         </div>
       </div>
 
       <div class="book-card genre-romance">
         <img src="../images/out.jpg" alt="out">
-        <div class="book-description">
-          <p>Out of Oz: The Final Volume in the Wicked Years</p>
-          <button class="stars">Rent</button>
+        <div class="book-description"
+          <p>Out of Oz </p>
+      <a href="../html/b_book4.aspx" class="stars"> Rent</a>
         </div>
       </div>
 
@@ -160,7 +164,7 @@
         <img src="../images/abactioncover.jpg" alt="Romance Book">
         <div class="book-description">
           <p>Hunger Games</p>
-          <button class="stars">Rent</button>
+      <a href="../html/b_hunger.aspx" class="stars"> Rent</a>
         </div>
       </div>
 
@@ -189,7 +193,7 @@
         <img src="../images/abactioncover.jpg" alt="Son of a Witch: A Novel">
         <div class="book-description">
           <p>Hunger Games</p>
-          <button class="stars">Rent</button>
+      <a href="../html/b_hunger.aspx" class="stars"> Rent</a>
         </div>
       </div>
 

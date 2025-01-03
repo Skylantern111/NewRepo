@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="b_book4.aspx.vb" Inherits="Basa.b_book4" %>
+﻿<%@ Page Language="VB" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,29 +14,32 @@
 <body>
     <header>
               <div class="burger-menu">
-           <button class="burger-icon" aria-label="Menu">&#9776;</button>
-           <nav class="burger-menu-content">
-             <a href="../html/pp.aspx">Privacy Policy Update</a>
-             <a href="../html/terms.aspx">Terms and Conditions</a>
-             <a href="../html/cancel.aspx">Cancellation and Refund Policy</a>
-             <a href="../html/shipping.aspx">Shipping & Delivery Policy</a>
-             <a href="../html/contactus.aspx">Contact Us</a>
-           </nav>
-                  </div>
+        <button class="burger-icon" aria-label="Menu">&#9776;</button>
+        <nav class="burger-menu-content">
+          <a href="../html/pp.aspx">Privacy Policy Update</a>
+          <a href="../html/terms.aspx">Terms and Conditions</a>
+          <a href="../html/cancel.aspx">Cancellation and Refund Policy</a>
+          <a href="../html/shipping.aspx">Shipping & Delivery Policy</a>
+          <a href="../html/contactus.aspx">Contact Us</a>
+        </nav>
 
+                  </div>
         <div class="logo">
-          <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
-          <p class="logo-text">RENT A READ</p>
+            <a href="../html/home.aspx">
+                <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
+                <p class="logo-text">RENT A READ</p>
+            </a>
         </div>
+        
         <div class="auth-search-container">
             <div class="auth-links">
                 <a href="../html/login.html" class="login">LOGIN</a>
-                <a href="..html/register.html" class="register">REGISTER</a>
+                <!-- Divider between links -->
+                <a href="../html/register.html" class="register">REGISTER</a>
             </div>
-    
             <div class="search-bar">
                 <input type="text" placeholder="Search">
-               <div class="genre-dropdown">
+                <div class="genre-dropdown">
                     <button class="genre-button">Genres</button>
                     <div class="genre-options">
                         <a href="../html/genre.aspx?genre=action">Action</a>
@@ -55,73 +58,55 @@
             </div>
         </div>
     </header>
-      
+
+
+        
     <main>
       <!-- Book Detail Container -->
       <div class="book-detail-container">
         
         <div class="book-image-container">
-            <p class="book-title">Out of Oz: The Final <br> Volume in the Wicked Years </p>
-
-          <img src="../images/out.jpg" alt="out">
+            <p class="book-title"> Mocking Bird </p>
+          <img src="../images/hunger3.jpg" alt="Hunger games">
         </div>
 
         <div class="book-description-container">
-          <p class="book-title">Gregory Maguire
+          <p class="book-title"> Suzanne Collins
 
           </p>
-          <p class="book-description-text">Bestselling author Gregory Maguire’s remarkable series, 
-            The Wicked Years, comes full circle with this, his fourth and final excursion across a darker,
-             richer, more complex landscape of “the magical land of Oz.” Out of Oz brilliantly reimagines L. 
-             Frank Baum’s world over the rainbow as wracked with social unrest—placing Glinda the good witch under
-              house arrest and having the cowardly Lion on the lam from the law as the Emerald City prepares to make war on 
-              Munchkinland. Even Dorothy makes a triumphant return in Maguire’s magnificent Oz finale—tying up every loose 
-              green end of the series he began with his classic Wicked, the basis for the smash hit Broadway musical..</p>
-               <a href="../html/login.aspx" class="stars">Rent</a>
-               <a href="../html/login.aspx" class="stars">Check for Availability</a>
-
+          <p class="book-description-text">
+              Wicked by Gregory Maguire reimagines The Wonderful Wizard of Oz from the perspective of Elphaba, the misunderstood and green-skinned woman who becomes the Wicked Witch of the West. The novel explores her complex relationships, including with Glinda the Good Witch, and delves into themes of power, prejudice, and moral ambiguity. Through Elphaba’s journey, Wicked challenges the traditional notions of good and evil, offering a fresh and thought-provoking take on the classic story.</p>
+   <a href="../html/login.aspx" class="stars">Rent</a>
+   <a href="../html/login.aspx" class="stars">Check for Availability</a>
         </div>
       </div>
     </main>
 
 
 
-    <main>
-        <p class="book-title">Related Books</p> <!-- Text above the book card -->
-      
+     <main>
+       <p class="book-title">Related Books</p> <!-- Text above the book card -->
+         <section class="books-container">
+           <div class="book-card genre-fantasy">
+             <img src="../images/abactioncover.jpg" alt="Hunger games">
+             <div class="book-description">
+               <p>Hunger Games</p>
+               <a href="../html/b_hunger.aspx" class="stars">Rent</a>
+             </div>
+           </div>
+     
+           <div class="book-card genre-horror">
+             <img src="../images/hunger2.jpg" alt="Horror Book">
+             <div class="book-description">
+               <p>Catching Fire</p>
+               <a href="../html/b_hunger2.aspx" class="stars">Rent</a>
+             </div>
+           </div>
     
-      
-        <section class="books-container">
-          <div class="book-card genre-fantasy">
-            <img src="../images/wicked.avif" alt="wicked">
-            <div class="book-description">
-              <p>Wicked: The Life and  Times <br> of the Wicked Witch of the West</p>
-              <a href="../html-book/book.html" class="stars">Rent</a>
-            </div>
-          </div>
-    
-          <div class="book-card genre-fantasy">
-            <img src="../images/son.jpg" alt="Son">
-            <div class="book-info"> 
-                <p>Son of a Witch: A Novel Gregory Maguire</p>              
-                <a href="../html-book/book2.html" class="stars">Rent</a>
-                </div>
-            </div>
-      
-            <div class="book-card genre-horror">
-              <img src="../images/lion.jpg" alt="Horror Book">
-              <div class="book-description">
-                <p>A Lion Among Men: <br> Volume Three  in the Wicked Years</p>
-                <a href="../html-book/book3.html" class="stars">Rent</a>
-              </div>
-            </div>
-      
-           
-          </section>
-        </div>
-      </main>
-
    
+     </main>
+
+  
   <footer>
     <div class="footer-links">
       <div class="footer-column">

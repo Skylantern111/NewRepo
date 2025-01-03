@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rent-A-Read</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
           <a href="../html/contactus.aspx">Contact Us</a>
         </nav>
 
-                  </div>
+         </div>
         <div class="logo">
             <a href="../html/home.aspx">
                 <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
@@ -31,9 +32,9 @@
         
         <div class="auth-search-container">
             <div class="auth-links">
-                <a href="../html/login.html" class="login">LOGIN</a>
+                <a href="../html/login.aspx" class="login">LOGIN</a>
                 <!-- Divider between links -->
-                <a href="../html/register.html" class="register">REGISTER</a>
+                <a href="../html/register.aspx" class="register">REGISTER</a>
             </div>
             <div class="search-bar">
                 <input type="text" placeholder="Search">
@@ -83,9 +84,26 @@
                         <img src="../images/abactioncover.jpg" alt="Action">
                         <div class="book-info">
                             <p>Hunger Games</p>
-                            <button class="stars">Rent</button>
+                                <a href="../html/b_hunger.aspx" class="stars"> Rent</a>
                         </div>
                     </div>
+
+                     <div class="book-item" data-genres="action">
+                             <img src="../images/hunger2.jpg" alt="Action">
+                             <div class="book-info">
+                                 <p>Catching Fire</p>
+                                <a href="../html/b_hunger2.aspx" class="stars"> Rent</a>
+                             </div>
+                         </div>
+
+                  <div class="book-item" data-genres="action">
+                    <img src="../images/hunger3.jpg" alt="Action">
+                    <div class="book-info">
+                        <p>Mocking Bird</p>
+                       <a href="../html/b_hunger3.aspx" class="stars"> Rent</a>
+                    </div>
+                </div>
+
                     <div class="book-item" data-genres="action">
                         <img src="../images/actioncover.jpg" alt="Action">
                         <div class="book-info">

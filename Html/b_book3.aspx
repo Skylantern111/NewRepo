@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rent-A-Read</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -73,7 +74,8 @@
             to life and gets to tell his remarkable tale. It is a story of oppression and fear in a world gone mad 
             with war fever—of Munchkins, Wizards, and Wicked Witches—and especially of a gentle soul and determined 
             survivor who is truly A Lion Among Men..</p>
-          <a href="../html/login.aspx" class="stars">Rent</a>
+            <a href="../html/login.aspx" class="stars">Rent</a>
+            <a href="../html/login.aspx" class="stars">Check for Availability</a>
         </div>
       </div>
     </main>
