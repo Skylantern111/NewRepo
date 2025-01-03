@@ -215,7 +215,7 @@ body {
 
 .large-image-container {
   width: 100%;
-  max-height: 380px; /* Adjust height as needed */
+  max-height: 350px; /* Adjust height as needed */
   overflow: hidden; /* Ensures the image doesn’t spill out */
   display: flex;
   justify-content: center;
@@ -249,7 +249,7 @@ body {
 .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 80px; /* Increased space between the buttons */
+    gap: 40px; 
     justify-content: center;
 }
 
@@ -257,17 +257,17 @@ body {
 .tag-button {
     background-color: transparent;
     border: none;
-    font-size: 15px; /* Increased font size for button text */
+    font-size: 15px; 
     color: #333;
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
-    padding: 15px 30px; /* Increased padding for larger buttons */
+    padding: 15px 30px; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Increased gap between icon and text */
-    border-radius: 10px; /* Slightly larger rounded corners */
+    gap: 10px; 
+    border-radius: 10px; 
 }
 
 /* Active button style */
@@ -278,7 +278,7 @@ body {
 
 /* Placeholder for the icon above text */
 .icon {
-    font-size: 28px; /* Increased size for the icon */
+    font-size: 23px; /* Increased size for the icon */
     color: #333;
 }
 
