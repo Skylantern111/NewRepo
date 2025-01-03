@@ -118,6 +118,9 @@
     <Content Include="Html\b_book2.aspx" />
     <Content Include="Html\b_book3.aspx" />
     <Content Include="Html\b_book4.aspx" />
+    <Content Include="Html\b_hunger.aspx" />
+    <Content Include="Html\b_hunger2.aspx" />
+    <Content Include="Html\b_hunger3.aspx" />
     <Content Include="Html\cancel.aspx" />
     <Content Include="Html\contactus.aspx" />
     <Content Include="Html\f_about.aspx" />
@@ -135,6 +138,9 @@
     <Content Include="Html\shipping.aspx" />
     <Content Include="Html\terms.aspx" />
     <Content Include="Html\f_help.aspx" />
+    <Content Include="Html\user.aspx" />
+    <Content Include="Html\u_rental.aspx" />
+    <Content Include="Html\u_settings.aspx" />
     <Content Include="Images\abactioncover.jpg" />
     <Content Include="Images\abdramacover.jpg" />
     <Content Include="Images\abfantasycover.jpg" />
@@ -153,6 +159,8 @@
     <Content Include="Images\google.svg" />
     <Content Include="Images\historycover.jpg" />
     <Content Include="Images\horrorcover.jpg" />
+    <Content Include="Images\hunger2.jpg" />
+    <Content Include="Images\hunger3.jpg" />
     <Content Include="Images\ikigai-7.jpg" />
     <Content Include="Images\lion.jpg" />
     <Content Include="Images\Logo.png" />
