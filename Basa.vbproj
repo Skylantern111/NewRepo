@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{07CFD2D9-D0F3-4FBB-9975-70CB4FC8A05D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Basa</RootNamespace>
+    <AssemblyName>Basa</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44330</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Basa.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Basa.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\about.css" />
+    <Content Include="Css\additional.css" />
+    <Content Include="Css\adminbooksman.css" />
+    <Content Include="Css\adminorderdet.css" />
+    <Content Include="Css\adminordet.css" />
+    <Content Include="Css\adminuseraccounts.css" />
+    <Content Include="Css\browsebooks,css.css" />
+    <Content Include="Css\helpfaq.css" />
+    <Content Include="Css\mediacenter.css" />
+    <Content Include="Css\normalize.css" />
+    <Content Include="Css\pp.css" />
+    <Content Include="Css\sitemap.css" />
+    <Content Include="Css\style.css" />
+    <Content Include="Css\style1.css" />
+    <Content Include="Css\styles.css" />
+    <Content Include="Css\user.css" />
+    <Content Include="Html\addbook.aspx" />
+    <Content Include="Html\admin.aspx" />
+    <Content Include="Html\adminuser.aspx" />
+    <Content Include="Html\a_order.aspx" />
+    <Content Include="Html\a_overdue.aspx" />
+    <Content Include="Html\a_rental.aspx" />
+    <Content Include="Html\B_book.aspx" />
+    <Content Include="Html\b_book2.aspx" />
+    <Content Include="Html\b_book3.aspx" />
+    <Content Include="Html\b_book4.aspx" />
+    <Content Include="Html\cancel.aspx" />
+    <Content Include="Html\contactus.aspx" />
+    <Content Include="Html\f_about.aspx" />
+    <Content Include="Html\f_affiliates.aspx" />
+    <Content Include="Html\f_blog.aspx" />
+    <Content Include="Html\f_browse.aspx" />
+    <Content Include="Html\f_rss.aspx" />
+    <Content Include="Html\f_sitemap.aspx" />
+    <Content Include="Html\Genre.aspx" />
+    <Content Include="Html\f_gift.aspx" />
+    <Content Include="Html\Home.aspx" />
+    <Content Include="Html\f_media.aspx" />
+    <Content Include="Html\login.aspx" />
+    <Content Include="Html\pp.aspx" />
+    <Content Include="Html\shipping.aspx" />
+    <Content Include="Html\terms.aspx" />
+    <Content Include="Html\f_help.aspx" />
+    <Content Include="Images\abactioncover.jpg" />
+    <Content Include="Images\abdramacover.jpg" />
+    <Content Include="Images\abfantasycover.jpg" />
+    <Content Include="Images\abhistorycover.jpg" />
+    <Content Include="Images\abromancecover.jpg" />
+    <Content Include="Images\abselfhelpcover.jpg" />
+    <Content Include="Images\actioncover.jpg" />
+    <Content Include="Images\adventurecover.jpg" />
+    <Content Include="Images\baba.jpg" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\covercover.jpg" />
+    <Content Include="Images\dramacover.jpg" />
+    <Content Include="Images\educationalcover.jpg" />
+    <Content Include="Images\fantasycover.jpg" />
+    <Content Include="Images\fb.svg" />
+    <Content Include="Images\google.svg" />
+    <Content Include="Images\historycover.jpg" />
+    <Content Include="Images\horrorcover.jpg" />
+    <Content Include="Images\ikigai-7.jpg" />
+    <Content Include="Images\lion.jpg" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\mejobaba.jpg" />
+    <Content Include="Images\newlogo.jpg" />
+    <Content Include="Images\newlogo1.png" />
+    <Content Include="Images\out.jpg" />
+    <Content Include="Images\romancecover.jpg" />
+    <Content Include="Images\romcomcover.jpg" />
+    <Content Include="Images\selfhelpcover.jpeg" />
+    <Content Include="Images\son.jpg" />
+    <Content Include="Images\taas.jpg" />
+    <Content Include="Images\wicked.png" />
+    <Content Include="Scripts\adminbookman.js" />
+    <Content Include="Scripts\books-data.js" />
+    <Content Include="Scripts\duerental.js" />
+    <Content Include="Scripts\scripts.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Html\addbook.aspx.designer.vb">
+      <DependentUpon>addbook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\addbook.aspx.vb">
+      <DependentUpon>addbook.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\admin.aspx.designer.vb">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\admin.aspx.vb">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\adminuser.aspx.designer.vb">
+      <DependentUpon>adminuser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\adminuser.aspx.vb">
+      <DependentUpon>adminuser.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\a_order.aspx.designer.vb">
+      <DependentUpon>a_order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\a_order.aspx.vb">
+      <DependentUpon>a_order.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\a_overdue.aspx.designer.vb">
+      <DependentUpon>a_overdue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\a_overdue.aspx.vb">
+      <DependentUpon>a_overdue.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\a_rental.aspx.designer.vb">
+      <DependentUpon>a_rental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\a_rental.aspx.vb">
+      <DependentUpon>a_rental.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\B_book.aspx.designer.vb">
+      <DependentUpon>B_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\B_book.aspx.vb">
+      <DependentUpon>B_book.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\b_book2.aspx.designer.vb">
+      <DependentUpon>b_book2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\b_book2.aspx.vb">
+      <DependentUpon>b_book2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\b_book3.aspx.designer.vb">
+      <DependentUpon>b_book3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\b_book3.aspx.vb">
+      <DependentUpon>b_book3.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\b_book4.aspx.designer.vb">
+      <DependentUpon>b_book4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\b_book4.aspx.vb">
+      <DependentUpon>b_book4.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\cancel.aspx.designer.vb">
+      <DependentUpon>cancel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\cancel.aspx.vb">
+      <DependentUpon>cancel.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\contactus.aspx.designer.vb">
+      <DependentUpon>contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\contactus.aspx.vb">
+      <DependentUpon>contactus.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_about.aspx.designer.vb">
+      <DependentUpon>f_about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_about.aspx.vb">
+      <DependentUpon>f_about.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_affiliates.aspx.designer.vb">
+      <DependentUpon>f_affiliates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_affiliates.aspx.vb">
+      <DependentUpon>f_affiliates.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_blog.aspx.designer.vb">
+      <DependentUpon>f_blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_blog.aspx.vb">
+      <DependentUpon>f_blog.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_browse.aspx.designer.vb">
+      <DependentUpon>f_browse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_browse.aspx.vb">
+      <DependentUpon>f_browse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_rss.aspx.designer.vb">
+      <DependentUpon>f_rss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_rss.aspx.vb">
+      <DependentUpon>f_rss.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_sitemap.aspx.designer.vb">
+      <DependentUpon>f_sitemap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_sitemap.aspx.vb">
+      <DependentUpon>f_sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\Genre.aspx.designer.vb">
+      <DependentUpon>Genre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Genre.aspx.vb">
+      <DependentUpon>Genre.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_gift.aspx.designer.vb">
+      <DependentUpon>f_gift.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_gift.aspx.vb">
+      <DependentUpon>f_gift.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_media.aspx.designer.vb">
+      <DependentUpon>f_media.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_media.aspx.vb">
+      <DependentUpon>f_media.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\pp.aspx.designer.vb">
+      <DependentUpon>pp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\pp.aspx.vb">
+      <DependentUpon>pp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\shipping.aspx.designer.vb">
+      <DependentUpon>shipping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\shipping.aspx.vb">
+      <DependentUpon>shipping.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\terms.aspx.designer.vb">
+      <DependentUpon>terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\terms.aspx.vb">
+      <DependentUpon>terms.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Html\f_help.aspx.designer.vb">
+      <DependentUpon>f_help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\f_help.aspx.vb">
+      <DependentUpon>f_help.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\abadventurecover.webp" />
+    <Content Include="Images\abcomedycover.webp" />
+    <Content Include="Images\abhorrorcover.webp" />
+    <Content Include="Images\abromcomcover.avif" />
+    <Content Include="Images\comedycover.webp" />
+    <Content Include="Images\download" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52308</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44330/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

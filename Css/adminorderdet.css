@@ -1,0 +1,122 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  position: relative;
+  left: 450px;
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 500px;
+  height: 25px;
+  position: relative;
+  left: 450px;
+}
+
+button.save-button {
+  padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 100px;
+  height: 65px;
+  position: relative;
+  left: 650px;
+
+}
+
+button.save-button:hover {
+  background-color: #0056b3;
+}
+
+
+.card {
+  padding: 20px;
+  position:absolute;
+  top:150px;
+  left:250px;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  
+}
+
+.table th {
+ 
+  color: white;
+}
+
+.table td {
+  background-color: #f8f9fa;  /* Light grey background for better readability */
+  color: black;
+}
+
+
+/* Action Buttons */
+.action-btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.action-btn.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.action-btn.delete:hover {
+  background-color: #c82333;
+}
+
+.action-btn.block {
+  background-color: #ffc107;
+  color: white;
+}
+
+.action-btn.block:hover {
+  background-color: #e0a800;
+}
+
+.dashboard-button {
+  padding: 3px 8px; /* Smaller padding */
+  background-color: white;
+  color: #007BFF;
+  border: none;
+  border-radius: 2px; /* Smaller border radius */
+  text-decoration: none; /* Remove underline */
+  font-size: 12px; /* Smaller font size */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
